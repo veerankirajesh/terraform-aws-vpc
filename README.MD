@@ -14,7 +14,7 @@
 * VPC peering if user requests
 * Adding the peering route in default VPC, if user don't provide acceptor VPC explicitly.
 * Adding the peering routes in public, private and database route tables
-* Inputs
+*  ### Inputs
 * project_name (Required) - your project name
 * environment (Required) - which environment you are working in
 * vpc_cidr (Optional) - Default value is 10.0.0.0/16, user can override
@@ -35,7 +35,7 @@
 * is_peering_required (Optional) - default value is false
 * acceptor_vpc_id (Optional) - default value is default VPC ID
 * vpc_peering_tags (Optional) - Default value is empty. type is map
-* Outputs
+*  #### Outputs
 * vpc_id - VPC ID created
 * public_subnet_ids - 2 public subnet ID created
 * private_subnet_ids - 2 private subnet ID created
